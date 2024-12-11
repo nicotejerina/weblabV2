@@ -1,0 +1,53 @@
+.cuadrado{
+    width: 93px;
+    height: 165px;
+    background-color:rgb(255, 255, 255);
+    transform:scale(1);
+
+
+}
+h1{
+    color:rgb(255, 0, 0);
+    transition:color;
+    transition-duration:0.9s;
+}
+h1:hover{
+    color:rgb(51, 255, 0)
+}
+
+.texto{
+    color: rgb(255, 255, 255);
+    transition: color 0.9s ease;
+    font-size: 30px;
+}
+
+.cuadrado:hover .texto{
+    color: rgb(160, 2, 2);
+}
+.eldestructor {
+     width: 50px;
+     height: 50px;
+}
+
+.eldestructor:hover{
+    transform: scale(2)
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230621/pngtree-an-irregular-black-hole-in-the-background-of-a-3d-rendered-image_3651992.jpg);
+    background-size: COVER;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.imagen1{width: 300px;}
+
+
+
+
+
+
+
+
+
+

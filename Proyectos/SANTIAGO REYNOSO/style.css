@@ -1,0 +1,19 @@
+h2 {color: chocolate;}
+h2 {color: coral;}
+.wenas{color: aqua;}
+p{color: aqua;}
+.imagen1{ width: 300px; height: px}
+body {background-color: gray;}
+.joker{ width: 300px; height: 300px;}
+.circulo {
+    background-color: darkgoldenrod;
+     border border-radius: 50%;
+}
+.joker {
+    width: 100px;
+    height: 100px;
+}
+
+.joker:hover{
+    transform: scale(2);
+}

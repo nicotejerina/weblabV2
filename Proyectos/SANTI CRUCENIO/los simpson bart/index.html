@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tati god</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>hola soy Bart</h1>
+    <h2>Edad</h2>
+    <p>tengo 10 años</p>
+    <h2>Comida favorita</h2>
+    <p>amburguesa</p>
+    <h2>Nombre de sus padres</h2>
+    <p>Homero simpson y Marge</p>
+    <img src="https://i.pinimg.com/736x/c4/65/61/c46561379034bdb6eaa5792cf682cef5.jpg" alt="">
+    <a href="https://www.disneyplus.com/es-ar">link a disney</a>
+    <img src="./imagenes/bart.jpg" alt="" class="bart">
+
+<button onclick="playAudio('./audios/fade.mp3')">FADE</button>
+<script>
+    function playAudio(ubicacion_audio) {
+        const audio = new Audio(ubicacion_audio);
+        audio.play();
+    }
+    </script>
+</body>
+</html>

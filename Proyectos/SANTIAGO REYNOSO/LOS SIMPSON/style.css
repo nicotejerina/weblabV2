@@ -1,0 +1,38 @@
+body{
+    background: url(https://i.pinimg.com/736x/0d/0b/77/0d0b77ed4b5edd120c3fc253152ac80a.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;  
+}
+.cuadrado{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 72, 0);
+    transform: scale(1);
+    
+}
+.texto {
+    color: rgb(255, 72, 0);
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+.cuadrado:hover .texto {
+    color: white;
+}
+.calleseolomeo{
+    width: 500px;
+    height: 500px;
+    
+}
+h1 {
+    color: red;
+    transition: color;
+    transition-duration: 0.5s ;
+}
+h1:hover {
+    color: #0f9;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
