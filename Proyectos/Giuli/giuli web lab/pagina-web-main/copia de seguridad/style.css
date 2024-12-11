@@ -1,0 +1,52 @@
+h1 {
+  color: coral;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large
+}
+ body{
+  background-color: darkcyan;
+  text-align:center;
+ } 
+ img{
+  height: 1330px;
+ }
+ p{color:#DED3CA}
+ .libro{
+  font-size: xx-large;
+ }
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <link type="text/css" rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+     <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <link type="text/css" rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+     <h1 align="center">datos sobre mi</h1>
+ <h2>f/n</h2>
+ <p>28 de diciembre del 2012</p>
+ <h2>edad</h2>
+ <p>11 años</p>
+ <h2>signo</h2>
+ <p>capricornio</p>
+ <h2>color favorito</h2>
+ <p>todos</p>
+ <h2>info</h2>
+ <p>me gusta diseñar, pintar y escribir</p>
+ <h2 class="libro">un libro</h2>
+ <img src="https://www.oceano.com.pe/peru/13394-thickbox_default/los-chicos-que-no-pude-matar.jpg" alt="portada libro">
+ 
+ 
+ <img src="https://i.pinimg.com/736x/e6/6e/9a/e66e9a1b3a0e79e77c067a445a3f0561.jpg"alt="">
+     <script type="module" src="script.js"></script>
+   </body>
+ </html>
+ 
+ 
+     <script type="module" src="script.js"></script>
+   </body>
+ </html>

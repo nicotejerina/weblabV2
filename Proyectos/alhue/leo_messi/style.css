@@ -1,0 +1,58 @@
+
+.titulo{text-decoration:underline;
+}
+p{color:white}
+ 
+h2{color:gold}
+h3{background-color: ;}
+h3{background-color: blue;}
+h2{background-color: blue;}  /*color fondo*/
+h3{ opacity: 0,5;}
+p{opacity: 1;}
+.titulo{font-size: 100px;}
+
+.imagenmessi{
+text-align: center;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnHaNlBKSvFHv0SzWzy_7vz4b8TtO6NkTlfg&s);}
+.alhue{background-color: blue;
+text-align: center;}
+.imgalhue{
+    display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+a{background-color: white;}
+.imgalhue img {
+width:400px ;
+
+}
+.boton{
+color: rgb(4, 0, 255);
+background-color:yellow;
+}
+.boton:hover{
+    cursor: pointer;
+    transform: scale(2);
+    transition-duration: 1s;
+
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+}
+.saludomessi{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+    font-family :serif;
+    font-size: xx-large;
+}
+.saludomessi:hover{
+    transform: scale(2);
+    transition-duration: 1s;
+}
+

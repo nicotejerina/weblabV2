@@ -1,0 +1,71 @@
+.Patineta{
+    display: flex;
+    justify-content: center;
+margin: 0; 
+align-items: center;
+
+}
+.patineta{width: 400px;}
+body{
+background-image:url(https://elordenmundial.com/wp-content/uploads/2021/12/Sale-a-la-luz-el-primer-episodio-de-Los-Simpson-scaled.jpg);
+background-size: cover;
+  background-repeat: no-repeat; 
+ background-attachment: fixed; 
+ background-position: center center;
+ color:white;
+}
+
+a{
+    color: white;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    rotate: 360deg;
+    transition-duration: 2s;
+    border: solid 5px;
+    border-color: black;
+    
+}
+
+
+
+button{
+    margin-top: 30px;
+}
+
+.contenedor-boton{
+display:flex;
+justify-content: center;
+
+}
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+                cursor: pointer;
+                color: yellow;
+                scale: 1.2;
+                transition: 2;
+               
+  }

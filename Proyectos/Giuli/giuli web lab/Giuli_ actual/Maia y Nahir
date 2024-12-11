@@ -1,0 +1,7 @@
+
+nombre= "Melanie"
+apellido= "Ibañez"
+if == (nombre y apellido)
+print {nombre} y {apellido}
+
+

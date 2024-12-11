@@ -1,0 +1,22 @@
+ /* Estilos para el cuadrado */
+ .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* color de fondo */
+}
+
+/* Estilos para el círculo */
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c; /* color de fondo */
+    border-radius: 50%; /* Esto hace que el cuadrado se convierta en un círculo */
+}
+
+/* Para centrar los elementos en la página */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}

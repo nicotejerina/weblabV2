@@ -1,0 +1,36 @@
+  /* Estilos para el cuadrado */
+  .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 5s ease, background-color 0.3s ease; /* Transición suave para rotación y color */
+}
+
+/* Estilos para el círculo */
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%; /* Hace que sea un círculo */
+    transition: transform 5s ease, background-color 3s ease; /* Transición suave para mover y cambiar color */
+}
+
+/* Cuando se hace hover sobre el cuadrado */
+.cuadrado:hover {
+    transform: rotate(45deg) scale(3); /* Rota y escala el cuadrado */
+    background-color: #0f5043; /* Cambia el color de fondo del cuadrado */
+}
+
+/* Cuando se hace hover sobre el círculo */
+.circulo:hover {
+    transform: translateX(200px) translateY(50px); /* Mueve el círculo a la derecha y hacia arriba */
+    background-color: #f39c12; /* Cambia el color de fondo del círculo */
+}
+
+/* Para centrar los elementos en la página */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}

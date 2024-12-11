@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>informacion de Maggie simpson</h1>
+<h2>nombre completo</h2>
+<p>Maggie Lenny simpson</p>
+<h2>edad</h2>
+<p>1 año</p>
+<h2>nacionalidad</h2>
+<p>Estados unidos</p>
+<h2>genero</h2>
+<p>femenino</p>
+<h2>fotos de ella</h2>
+<div class="contenedor-imagenes">
+<div>
+    <img src="imagenes/467171.jpg" alt="">
+</div>
+<div>
+    <img src="imagenes/favorite-maggie-the-forgotten-simpson-moment-v0-xt3iuthgf1ua1.webp" alt="">
+</div>
+<div>
+    <img src="imagenes/fotonoticia_20090519185406_690.jpg" alt="">
+</div>
+<div>
+    <img src="imagenes/images.jpeg" alt="espere estamos cargando las imagenes de Maggie simpson" srcset="">
+</div>
+</div>
+<div class="contenedor-enlaces">
+<a href="pagina-web-main/ Giuli_ actual/index.html">aca mi otra pagina</a>
+<a href="https://es.wikipedia.org/wiki/Me_before_you_(pel%C3%ADcula_de_2016)">descripcion de mi pelicula favorita</a>
+</div>
+
+<h1>reproducir diferentes audios</h1>
+
+<!--botones-->
+<button onclick="playAudio('./audio/simpson.mp3')">reproducir cancion</button>
+
+<!--script-->
+<script>
+    function playAudio(ubicacion_audio) {
+        const audio = new Audio (ubicacion_audio);
+        audio.play();
+    }
+    confirm("¿queres entrar?")
+    let nombre = prompt("dime tu nombre")
+    alert("hola" + nombre + ", ¡bienvenido!");
+</script>
+</body>
+</html>
+
+
