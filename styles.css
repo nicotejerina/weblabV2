@@ -138,3 +138,9 @@ p{
     color:white;
     font-size:20px;
 }
+
+
+.image-container img {
+    width: 200px; /* Cambia este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción */
+}
